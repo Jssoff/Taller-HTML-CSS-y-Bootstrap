@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maqueta con Bootstrap</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container mt-5">
+    
+    <div id="inicio" class="text-center">
+      <img src="https://logowik.com/content/uploads/images/mob-psycho-1003568.logowik.com.webp" class="img-fluid" alt="Logo">
+    </div>
+
+    
+    <nav class="mb-4">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#inicio">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resumen">Resumen</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#personajes">Personajes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#opinion">Opinión</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#formulario">Formulario</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="row">
+    
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://i.pinimg.com/enabled_hi/564x/cd/d5/1e/cdd51e2202c9767f7667bde9e7485297.jpg" class="card-img img-fluid" alt="Imagen">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+             <h5 class="card-title" id = "resumen" style="text-align: center;">Resumen</h5>
+            <p class="card-text">Mob Psycho 100 es un webcómic japonés creado por One, el cual comenzó su serialización en la revista Ura Sunday el 18 de abril de 2012.</p>
+            <p class="card-text">Shigeo Kageyama es un estudiante de secundaria promedio conocido como "Mob", que a pesar de parecer una persona discreta, es un poderoso psíquico. Mientras crece, Mob se da cuenta de que sus poderes se hacen cada vez más poderosos y peligrosos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="personajes" class="accordion mt-4" id="accordionExample">
+      <h2 id="resumen">Conoce algunos personajes!!</h2>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Shigeo Kageyama (Mob)
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="row">
+      
+              <div class="col-md-6">
+                <img src="https://i.pinimg.com/564x/c5/a8/76/c5a8765e74d5362aaa1b2eb40adb2a78.jpg" class="img-fluid w-100" alt="Imagen">
+              </div>
+        
+              <div class="col-md-6">
+                <p>Es el protagonista principal de la serie Mob Psycho 100. Es un estudiante de tercer año en Salt Middle School y vicepresidente del Body Improvement Club que también es un ex asistente y discípulo de Arataka Reigen.</p>
+
+                <h2>Poderes</h2>
+                <ul>
+                  <li id="mob">Telequinesis</li>
+                  <li>Absorción de energía psíquica</li>
+                  <li>Transferencia de energía psíquica</li>
+                  <li>Clorocinesis</li>
+                  <li>Conciencia espiritual</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Arataka Reigen
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="row">
+             
+              <div class="col-md-6">
+                <img src="https://i.pinimg.com/564x/ec/30/e2/ec30e2ac0f29364f93c88ed402758264.jpg" class="img-fluid w-100" alt="Imagen">
+              </div>
+         
+              <div class="col-md-6">
+                <p>Arataka Reigen es el autoproclamado "mejor psíquico del mundo" y jefe de Mob en Mob Psycho 100. Aunque no tiene poderes reales, es un maestro del engaño y tiene gran influencia sobre Mob.</p>
+
+                <h2>Habilidades</h2>
+                <ul>
+                  <li>Manipulación</li>
+                  <li>Técnicas de ventas</li>
+                  <li>Empatía emocional</li>
+                  <li>Habilidades de negociación</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Dimple
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="row">
+              
+              <div class="col-md-6">
+                <img src="https://i.pinimg.com/564x/14/92/f4/1492f4005a28b0459a879701fbec37c2.jpg" class="img-fluid w-100" alt="Imagen">
+              </div>
+      
+              <div class="col-md-6">
+                <p>Dimple es un espíritu maligno que busca poseer el cuerpo de Mob. Al principio es un antagonista, pero se convierte en un aliado y amigo de Mob a lo largo de la serie.</p>
+
+                <h2>Poderes</h2>
+                <ul>
+                  <li>Control sobre otros espíritus</li>
+                  <li>Regeneración</li>
+                  <li>Manipulación del tamaño</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="opinion" class="mt-4">
+      <h3>Opinión</h3>
+      <ul class="list-group">
+        <li class="list-group-item">La animación de las escenas de acción son increíbles. Los colores y efectos usados te hacen sentir emocionado por los combates.</li>
+        <li class="list-group-item">El protagonista de la historia desea ayudar a su comunidad y las personas que quiere. Esta historia me hace sentir agradada por las experiencias que vive Mob a lo largo del anime ya que es una persona amable que a pesar de ser muy poderosa quiere ayudar a los demás y no pisotearlos.</li>
+        <li class="list-group-item">Las escenas de comedia son muy divertidas y evitan caer en lo absurdo o exagerado. La comedia utilizada en este anime funciona ya que las experiencias de los personajes dan lugar a situaciones divertidas.</li>
+      </ul>
+    </div>
+
+
+    <div class="mt-4">
+      <h3 id="formulario">¿Te atreverías a ver este increíble anime? Cuéntanos tu opinión sobre Mob y todas sus aventuras</h3>
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Escribe tu correo electrónico">
+        </div>
+        <div class="mb-3">
+          <label for="opinion" class="form-label">Opinión</label>
+          <input type="text" class="form-control" id="opinion" placeholder="Escribe tu opinión">
+        </div>
+        
+       
+        <div class="text-center">
+          <button type="submit" class="btn btn-success mb-3">Enviar</button>
+        </div>
+      </form>
+
+      <div class="text-center">
+        <a href="#inicio" class="btn btn-primary">Volver al Inicio</a>
+      </div>
+    </div>
+  </div>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
